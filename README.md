@@ -71,23 +71,23 @@ Il diagramma sottostante illustra il flusso dei dati e l'interazione tra i compo
 Il progetto è stato sviluppato focalizzandosi sulle seguenti aree fondamentali:
 
 ### 1. React & TypeScript (Class Components)
-Class Components & State Management: Strutturazione dell'architettura software basata su componenti a classe (React.Component<Props, State>), gestendo in modo puntuale lo stato locale per caricamento, selezione dei giorni e dati delle previsioni.
+  * Class Components & State Management: Strutturazione dell'architettura software basata su componenti a classe (React.Component<Props, State>), gestendo in modo puntuale lo stato locale per caricamento, selezione dei giorni e dati delle previsioni.
 
-Refs & Interazione DOM: Utilizzo di React.createRef() per accedere direttamente ai valori dei componenti di input senza causare re-render non necessari.
+  * Refs & Interazione DOM: Utilizzo di React.createRef() per accedere direttamente ai valori dei componenti di input senza causare re-render non necessari.
 
-Tipizzazione Statica: Definizione rigorosa delle interfacce per Props e State al fine di garantire un codice manutenibile e privo di errori a runtime.
+  * Tipizzazione Statica: Definizione rigorosa delle interfacce per Props e State al fine di garantire un codice manutenibile e privo di errori a runtime.
 
 ### 2. Gestione API REST & Asincronia
-Fetch API & Async/Await: Integrazione e orchestrazione di chiamate asincrone concatenate per il recupero delle coordinate geografiche e dei relativi dati meteo.
+  * Fetch API & Async/Await: Integrazione e orchestrazione di chiamate asincrone concatenate per il recupero delle coordinate geografiche e dei relativi dati meteo.
 
-Integrazione Multi-API: Collegamento sinergico di due differenti provider di servizi (Geocode Maps API per la geocodifica e Open-Meteo API per le misurazioni meteorologiche).
+  * Integrazione Multi-API: Collegamento sinergico di due differenti provider di servizi (Geocode Maps API per la geocodifica e Open-Meteo API per le misurazioni meteorologiche).
 
-Elaborazione Dati: Manipolazione e filtraggio dei dati grezzi restituiti dalle API (es. estrazione e slicing delle fasce orarie di interesse 07:00 - 19:00).
+  * Elaborazione Dati: Manipolazione e filtraggio dei dati grezzi restituiti dalle API (es. estrazione e slicing delle fasce orarie di interesse 07:00 - 19:00).
 
 ### 3. Gestione UI & Cross-Platform
-Ionic Framework UI: Impiego di componenti UI native-like (IonPage, IonHeader, IonCard, IonGrid, IonSpinner, ecc.) per offrire un'esperienza utente coerente e responsiva.
+  * Ionic Framework UI: Impiego di componenti UI native-like (IonPage, IonHeader, IonCard, IonGrid, IonSpinner, ecc.) per offrire un'esperienza utente coerente e responsiva.
 
-Geolocalizzazione Ibrida: Implementazione di una strategia di rilevamento della posizione che commuta dinamica tra @capacitor/geolocation per ambienti mobile e la Native Geolocation API per il web browser.
+  * Geolocalizzazione Ibrida: Implementazione di una strategia di rilevamento della posizione che commuta dinamica tra @capacitor/geolocation per ambienti mobile e la Native Geolocation API per il web browser.
 
 <br></br>
 ---
