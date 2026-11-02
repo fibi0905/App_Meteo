@@ -1,0 +1,27 @@
+.ContentForecasts {
+    display: flex;
+    align-items: center;
+
+}
+
+.ContentForecasts_Mobile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.HeaderContentForecasts {
+    width: 100px;
+}
+
+.CardContentForecasts {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.IconForecasts {
+    width: 70px;
+    height: 70px;
+}
